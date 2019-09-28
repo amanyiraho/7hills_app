@@ -1,0 +1,12 @@
+name: run_anim_app
+title: run_anim_app
+username:
+account: sjoerd
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1244631
+bundleId: 2451356
+url: https://sjoerd.shinyapps.io/run_anim_app/
+when: 1569670559.172
+asMultiple: FALSE
+asStatic: FALSE

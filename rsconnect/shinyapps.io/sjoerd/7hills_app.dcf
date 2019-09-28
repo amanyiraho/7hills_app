@@ -1,0 +1,12 @@
+name: 7hills_app
+title: 7hills_app
+username:
+account: sjoerd
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 595100
+bundleId: 1727938
+url: https://sjoerd.shinyapps.io/7hills_app/
+when: 1543474099.67105
+asMultiple: FALSE
+asStatic: FALSE
