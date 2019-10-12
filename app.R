@@ -79,7 +79,7 @@ server <- function(input, output) {
     
     text <- text %>% 
       mutate(time = as.character(time),
-             time = str_extract(time, "[0-9]+:[0-9]+"),
+             time = str_extract(time, "[0-9]*:*[0-9]+:[0-9]+"),
              time = str_pad(time, 8, side = "left", pad = "0"),
              time = ifelse(str_detect(time, "000") == T, str_replace(time, "000", "00:" ), time),
              runners = "you",
